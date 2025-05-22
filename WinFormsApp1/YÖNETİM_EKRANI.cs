@@ -64,8 +64,8 @@ namespace SİPARİŞ_GİRİŞ
             advancedDataGridView1.Columns.Add("Toplam Sipariş Tutar", "Toplam Sipariş Tutar");
             advancedDataGridView1.Columns.Add("Satınalma Siparişlerine Kesilen Toplam Fatura Tutarı", "Satınalma Siparişlerine Kesilen Toplam Fatura Tutarı");
             advancedDataGridView1.Columns.Add("Satış Siparişlerine Kesilen Toplam Fatura Tutarı", "Satış Siparişlerine Kesilen Toplam Fatura Tutarıı");
-            advancedDataGridView1.Columns.Add("Makine Satış Sipariş Toplam Tutar", "Makine Satış Sipariş Toplam Tutar");
-            advancedDataGridView1.Columns.Add("Satış Sonrası Sipariş Toplam Tutar", "Satış Sonrası Sipariş Toplam Tutar");
+            advancedDataGridView1.Columns.Add("Makine Satış Açık Sipariş Toplam Tutar", "Makine Satış Açık Sipariş Toplam Tutar");
+            advancedDataGridView1.Columns.Add("Satış Sonrası Açık Sipariş Toplam Tutar", "Satış Sonrası Açık Sipariş Toplam Tutar");
 
 
 
@@ -162,8 +162,8 @@ namespace SİPARİŞ_GİRİŞ
     "Toplam Sipariş Tutar",
     "Satınalma Siparişlerine Kesilen Toplam Fatura Tutarı",
     "Satış Siparişlerine Kesilen Toplam Fatura Tutarı",
-    "Makine Satış Sipariş Toplam Tutar",
-    "Satış Sonrası Sipariş Toplam Tutar"
+    "Makine Satış Açık Sipariş Toplam Tutar",
+    "Satış Sonrası Açık Sipariş Toplam Tutar"
 };
 
             var yillar = new[] { 2024, 2025 };
