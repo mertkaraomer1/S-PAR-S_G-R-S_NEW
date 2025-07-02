@@ -446,7 +446,7 @@ namespace WinFormsApp1
                                 stl_tarihi = selectedDateEvrakResSA,
                                 stl_teslim_tarihi = selectedDateTesResSA,
                                 stl_evrak_seri = evrakSeri,
-                                stl_evrak_sira = evrakSira + 2,
+                                stl_evrak_sira = evrakSira + 1,
                                 stl_satir_no = satirNo,
                                 stl_belge_no = textBoxBelge.Text,
                                 stl_belge_tarihi = DateTime.Now.Date,
@@ -503,7 +503,7 @@ namespace WinFormsApp1
                                 stl_tarihi = selectedDateEvrakComp,
                                 stl_teslim_tarihi = selectedDateTesComp,
                                 stl_evrak_seri = evrakSeri,
-                                stl_evrak_sira = evrakSira + 3,
+                                stl_evrak_sira = evrakSira + 2,
                                 stl_satir_no = satirNo,
                                 stl_belge_no = textBoxBelge.Text,
                                 stl_belge_tarihi = DateTime.Now.Date,
@@ -698,7 +698,7 @@ namespace WinFormsApp1
                                 stl_tarihi = selectedDateEvrakComp,
                                 stl_teslim_tarihi = selectedDateTesComp,
                                 stl_evrak_seri = evrakSeri,
-                                stl_evrak_sira = evrakSira + 2,
+                                stl_evrak_sira = evrakSira + 1,
                                 stl_satir_no = satirNo,
                                 stl_belge_no = textBoxBelge.Text,
                                 stl_belge_tarihi = DateTime.Now.Date,
@@ -878,7 +878,7 @@ namespace WinFormsApp1
                                 stl_tarihi = selectedDateEvrakResSA,
                                 stl_teslim_tarihi = selectedDateTesResSA,
                                 stl_evrak_seri = evrakSeri,
-                                stl_evrak_sira = evrakSira + 2,
+                                stl_evrak_sira = evrakSira + 1,
                                 stl_satir_no = satirNo,
                                 stl_belge_no = textBoxBelge.Text,
                                 stl_belge_tarihi = DateTime.Now.Date,
@@ -936,7 +936,7 @@ namespace WinFormsApp1
                                 stl_tarihi = selectedDateEvrakComp,
                                 stl_teslim_tarihi = selectedDateTesComp,
                                 stl_evrak_seri = evrakSeri,
-                                stl_evrak_sira = evrakSira + 3,
+                                stl_evrak_sira = evrakSira + 2,
                                 stl_satir_no = satirNo,
                                 stl_belge_no = textBoxBelge.Text,
                                 stl_belge_tarihi = DateTime.Now.Date,
@@ -1333,6 +1333,12 @@ namespace WinFormsApp1
         {
             YÖNETÝM_EKRANI YE = new YÖNETÝM_EKRANI();
             YE.Show();
+        }
+
+        private void mRPÖNCESÝTAHMÝNÝSÜREToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MRP_ONCESÝ_TAHMÝNÝ_SURE MRPOTS = new MRP_ONCESÝ_TAHMÝNÝ_SURE();
+            MRPOTS.Show();
         }
     }
 }

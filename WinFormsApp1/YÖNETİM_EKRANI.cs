@@ -149,8 +149,8 @@ namespace SİPARİŞ_GİRİŞ
                     row.Cells["Toplam Sipariş Tutar"].Value = MaliYıltoplamTutar.ToString("C2");
                     row.Cells["Satış Siparişlerine Kesilen Toplam Fatura Tutarı"].Value = SatısFaturaTutar.ToString("C2");
                     row.Cells["Satınalma Siparişlerine Kesilen Toplam Fatura Tutarı"].Value = AlısFaturaTutar.ToString("C2");
-                    row.Cells["Makine Satış Sipariş Toplam Tutar"].Value = MakinatoplamTutar.ToString("C2");
-                    row.Cells["Satış Sonrası Sipariş Toplam Tutar"].Value = SAtisSonrasıtoplamTutar.ToString("C2");
+                    row.Cells["Makine Satış Açık Sipariş Toplam Tutar"].Value = MakinatoplamTutar.ToString("C2");
+                    row.Cells["Satış Sonrası Açık Sipariş Toplam Tutar"].Value = SAtisSonrasıtoplamTutar.ToString("C2");
 
                 }
             }

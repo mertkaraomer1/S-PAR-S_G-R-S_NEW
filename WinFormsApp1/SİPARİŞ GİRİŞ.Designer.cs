@@ -60,6 +60,7 @@
             tALEPFİYATLİSTESİToolStripMenuItem = new ToolStripMenuItem();
             kALANSİPARİŞDETAYIToolStripMenuItem = new ToolStripMenuItem();
             rOTAVEİŞMERKEZİİZLEMEToolStripMenuItem = new ToolStripMenuItem();
+            mRPÖNCESİTAHMİNİSÜREToolStripMenuItem = new ToolStripMenuItem();
             toolStripTextBox1 = new ToolStripTextBox();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
@@ -221,7 +222,7 @@
             // toolStripDropDownButton1
             // 
             toolStripDropDownButton1.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripDropDownButton1.DropDownItems.AddRange(new ToolStripItem[] { fASONİMALATTALEBİToolStripMenuItem, pROFORMAToolStripMenuItem, oTOMASYONToolStripMenuItem, tALEPMALİYETToolStripMenuItem, bOMDAROTADÜZELTMEToolStripMenuItem, vERİLENTEKLİFMALİYETHESABIToolStripMenuItem, kODBULMAVEMALİYETToolStripMenuItem, sÜRETRANSFERİToolStripMenuItem, mARKAKODUATAMAToolStripMenuItem, bOMERPMRPKONTROLToolStripMenuItem, tEKLİFVERMEToolStripMenuItem, lEADTİMEToolStripMenuItem, tALEPFİYATLİSTESİToolStripMenuItem, kALANSİPARİŞDETAYIToolStripMenuItem, rOTAVEİŞMERKEZİİZLEMEToolStripMenuItem });
+            toolStripDropDownButton1.DropDownItems.AddRange(new ToolStripItem[] { fASONİMALATTALEBİToolStripMenuItem, pROFORMAToolStripMenuItem, oTOMASYONToolStripMenuItem, tALEPMALİYETToolStripMenuItem, bOMDAROTADÜZELTMEToolStripMenuItem, vERİLENTEKLİFMALİYETHESABIToolStripMenuItem, kODBULMAVEMALİYETToolStripMenuItem, sÜRETRANSFERİToolStripMenuItem, mARKAKODUATAMAToolStripMenuItem, bOMERPMRPKONTROLToolStripMenuItem, tEKLİFVERMEToolStripMenuItem, lEADTİMEToolStripMenuItem, tALEPFİYATLİSTESİToolStripMenuItem, kALANSİPARİŞDETAYIToolStripMenuItem, rOTAVEİŞMERKEZİİZLEMEToolStripMenuItem, mRPÖNCESİTAHMİNİSÜREToolStripMenuItem });
             toolStripDropDownButton1.Image = (Image)resources.GetObject("toolStripDropDownButton1.Image");
             toolStripDropDownButton1.ImageTransparentColor = Color.Magenta;
             toolStripDropDownButton1.Name = "toolStripDropDownButton1";
@@ -362,6 +363,13 @@
             rOTAVEİŞMERKEZİİZLEMEToolStripMenuItem.Size = new Size(311, 26);
             rOTAVEİŞMERKEZİİZLEMEToolStripMenuItem.Text = "ROTA VE İŞ MERKEZİ İZLEME";
             rOTAVEİŞMERKEZİİZLEMEToolStripMenuItem.Click += rOTAVEİŞMERKEZİİZLEMEToolStripMenuItem_Click;
+            // 
+            // mRPÖNCESİTAHMİNİSÜREToolStripMenuItem
+            // 
+            mRPÖNCESİTAHMİNİSÜREToolStripMenuItem.Name = "mRPÖNCESİTAHMİNİSÜREToolStripMenuItem";
+            mRPÖNCESİTAHMİNİSÜREToolStripMenuItem.Size = new Size(311, 26);
+            mRPÖNCESİTAHMİNİSÜREToolStripMenuItem.Text = "MRP ÖNCESİ TAHMİNİ SÜRE";
+            mRPÖNCESİTAHMİNİSÜREToolStripMenuItem.Click += mRPÖNCESİTAHMİNİSÜREToolStripMenuItem_Click;
             // 
             // toolStripTextBox1
             // 
@@ -633,5 +641,6 @@
         private ToolStripMenuItem kALANSİPARİŞDETAYIToolStripMenuItem;
         private ToolStripMenuItem rOTAVEİŞMERKEZİİZLEMEToolStripMenuItem;
         private ToolStripTextBox toolStripTextBox1;
+        private ToolStripMenuItem mRPÖNCESİTAHMİNİSÜREToolStripMenuItem;
     }
 }
