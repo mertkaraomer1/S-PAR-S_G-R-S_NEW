@@ -135,24 +135,34 @@ namespace WinFormsApp1
                         shouldCheck = true;
                     }
 
-                    // Eðer ÝSEMRÝ_TÝPÝ MONTAJ_IE ise customerList içinde döngü ile kontrol et
                     if (veri.ÝSEMRÝ_TÝPÝ == "MONTAJ_IE")
                     {
                         foreach (var x in customerList)
                         {
-                            if (x.ContainsKey("Part Number") &&
+                            if (
+                                x.ContainsKey("Part Number") &&
                                 new[] { "02" }.Any(prefix => veri.TÜKETÝLECEK_ÜRÜN_KODU.StartsWith(prefix)) &&
                                 x["Part Number"].ToString() == veri.TÜKETÝLECEK_ÜRÜN_KODU &&
                                 x.ContainsKey("Fason") &&
                                 x["Fason"].ToString() != "EVET" &&
                                 x.ContainsKey("Malzeme Taným") &&
-                                !string.IsNullOrEmpty(x["Malzeme Taným"].ToString()))
+                                !string.IsNullOrEmpty(x["Malzeme Taným"].ToString()) &&
+                                !new[]
+                                {
+                                    "T.KESIM - 000",
+                                    "LAZERLE KESIM - 120",
+                                    "OKSIJEN KESIM - 121",
+                                    "ROUTER KESIM - 127",
+                                    "SU JETI KESIM - 122"
+                                }.Contains(x["Rota01"].ToString())
+                            )
                             {
                                 shouldCheck = true;
-                                break; // Koþul saðlandýðýnda döngüden çýk
+                                break;
                             }
                         }
                     }
+
 
                     // Burada shouldCheck deðiþkenini kullanarak gerekli iþlemleri yapabilirsiniz
 

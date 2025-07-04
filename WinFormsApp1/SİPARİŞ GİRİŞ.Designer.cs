@@ -366,6 +366,7 @@
             // 
             // mRPÖNCESİTAHMİNİSÜREToolStripMenuItem
             // 
+            mRPÖNCESİTAHMİNİSÜREToolStripMenuItem.Image = (Image)resources.GetObject("mRPÖNCESİTAHMİNİSÜREToolStripMenuItem.Image");
             mRPÖNCESİTAHMİNİSÜREToolStripMenuItem.Name = "mRPÖNCESİTAHMİNİSÜREToolStripMenuItem";
             mRPÖNCESİTAHMİNİSÜREToolStripMenuItem.Size = new Size(311, 26);
             mRPÖNCESİTAHMİNİSÜREToolStripMenuItem.Text = "MRP ÖNCESİ TAHMİNİ SÜRE";
